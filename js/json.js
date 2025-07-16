@@ -50,7 +50,7 @@ function showTopFlavors(responseJSON) {
     for(flavour of topFlavors) {
         let article = document.createElement("article");
         let h2 = document.createElement("h2");
-        let image = document.createElement("img");
+        let image = document.createElement("figure");
         let p1 = document.createElement("p");  
         let p2 = document.createElement("p");
         let list = document.createElement("ul");
@@ -59,6 +59,20 @@ function showTopFlavors(responseJSON) {
         image.innerHTML = `<img src="${flavour.image}" alt="${flavour.name}">`;
         p1.textContent = `Calories: ${flavour.calories} | Type: ${flavour.type}`;
         list.textContent = `Ingredients:`;
+
+        article.appendChild(h2);
+        article.appendChild(image);
+        article.appendChild(p1);
+        article.appendChild(p2);
+        article.appendChild(list);
+
+        section.appendChild(article);
+
+        for(ingredient of flavour.ingredients) {
+            let li = document.createElement("li");
+            li.textContent = ingredient;
+            list.appendChild(li);
+        }
 
         
         
