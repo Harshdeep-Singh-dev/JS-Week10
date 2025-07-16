@@ -9,14 +9,16 @@
         "calories": 250,
         "type": "Chocolate",
         "ingredients": ["milk", "sugar", "cocoa powder", "vanilla extract"],
-        "image": "images/chocolate-delight.jpg"
+        "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/chocolate-mint.svg"
         },
         {
         "name": "Vanilla Dream",
         "calories": 200,
         "type": "Vanilla",
         "ingredients": ["milk", "sugar", "vanilla beans"],
-        "image": "images/vanilla-dream.jpg"
+        "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/peach-mango.svg"
         }
+
     ]
 }
+
