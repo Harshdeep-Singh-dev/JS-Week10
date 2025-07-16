@@ -1,0 +1,22 @@
+{
+    "companyName": "I-Scream Company Inc.",
+    "headOffice": "123 Ice Cream Lane, Sweet City, SC 12345",
+    "established": 1995,
+    "active": true,
+    "topFlavors": [
+        {
+        "name": "Chocolate Delight",
+        "calories": 250,
+        "type": "Chocolate",
+        "ingredients": ["milk", "sugar", "cocoa powder", "vanilla extract"],
+        "image": "images/chocolate-delight.jpg"
+        },
+        {
+        "name": "Vanilla Dream",
+        "calories": 200,
+        "type": "Vanilla",
+        "ingredients": ["milk", "sugar", "vanilla beans"],
+        "image": "images/vanilla-dream.jpg"
+        }
+    ]
+}
