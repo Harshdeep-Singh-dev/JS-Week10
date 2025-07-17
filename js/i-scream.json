@@ -17,8 +17,28 @@
         "type": "Vanilla",
         "ingredients": ["milk", "sugar", "vanilla beans"],
         "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/peach-mango.svg"
+        },
+        {
+        "name": "Strawberry Sprinkle",
+        "calories": 300,
+        "type": "Strawberry",
+        "ingredients": ["milk", "sugar","Strawberry Extract"],
+        "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/strawberry-sprinke.svg"
+        },
+        {
+        "name": "XTRA 1",
+        "calories": 400,
+        "type": "Lemon",
+        "ingredients": ["milk", "sugar", "Lemon Extract", "Lime", "Mint"],
+        "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/ice-cream-xtra1.svg"
+        },
+        {
+        "name": "XTRA 2",
+        "calories": 275,
+        "type": "Banana",
+        "ingredients": ["milk", "sugar", "Banana", "Artificial Flavoring"],
+        "image": "https://harshdeep-singh-dev.github.io/JS-Week10/images/ice-cream-xtra2.svg"
         }
-
     ]
 }
 
